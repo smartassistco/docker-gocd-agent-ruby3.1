@@ -1,6 +1,6 @@
 ## DO NOT MODIFY DIRECTLY. GENERATED WITH generate.sh ##
 
-FROM gocd/gocd-agent-debian-10:v21.4.0
+FROM gocd/gocd-agent-debian-11:v21.4.0
 
 # Become root
 USER root
