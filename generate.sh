@@ -22,7 +22,7 @@ echo "Creating Dockerfile"
 {
   echo -e "## DO NOT MODIFY DIRECTLY. GENERATED WITH generate.sh ##\\n"
 
-  echo "FROM gocd/gocd-agent-debian-10:v$GOCD_AGENT_VERSION"
+  echo "FROM gocd/gocd-agent-debian-11:v$GOCD_AGENT_VERSION"
 
   echo -e "\\n# Become root"
   echo -e "USER root\\n"
